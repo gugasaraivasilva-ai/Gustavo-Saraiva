@@ -1,11 +1,11 @@
 import os
-os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 import streamlit as st
 import asyncio
 import threading
 from agno.agent import Agent
 from agno.tools.mcp import MCPTools
 from agno.models.openai import OpenAIChat
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 st.title("📚 Assistente de Documentação")
 
