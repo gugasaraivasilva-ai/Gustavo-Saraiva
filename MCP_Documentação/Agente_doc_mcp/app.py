@@ -1,3 +1,5 @@
+import os
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 import streamlit as st
 import asyncio
 import threading

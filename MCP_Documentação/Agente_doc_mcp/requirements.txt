@@ -2,4 +2,3 @@ agno==2.5.14
 openai
 streamlit
 sentence-transformers
-mcp
