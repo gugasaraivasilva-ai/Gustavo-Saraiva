@@ -29,6 +29,8 @@ if st.button("Perguntar") and pergunta:
                     Faça um passo a passo de como ajudar o usuário.
                     Sempre envie o link da documentação.
                     Caso não encontre a resposta, sugira contato com o suporte.
+                    Se for feita uma pergunta fora do escopo da documentação, informe que não pode ajudar.
+                    Caso seja feita mais de uma pergunta na mesma mensagem, responda apenas as perguntas relacionadas à documentação e ignore as demais, informando que a sua função é exclusivamente responder dúvidas sobre a documentação.
                     """,
                     tools=[mcp_tools]
                 )
